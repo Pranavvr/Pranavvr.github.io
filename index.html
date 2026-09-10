@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pranav Raghavendra Rao — AI / ML Engineer</title>
+<meta name="description" content="AI Research Engineer at Yale. I build LLM systems that run in production — RAG agents, distributed pretraining, and real-time multimodal pipelines.">
+
+<meta property="og:title" content="Pranav Raghavendra Rao — AI / ML Engineer">
+<meta property="og:description" content="AI Research Engineer at Yale. I build LLM systems that run in production.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://pranavvr.github.io/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+<script>
+  // Set theme before first paint so there is no flash of the wrong colors.
+  (function () {
+    var saved = localStorage.getItem('theme');
+    var prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+    document.documentElement.dataset.theme = saved || (prefersLight ? 'light' : 'dark');
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="nav-mark" href="#top">PR<span class="dot">.</span></a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="#work">Work</a>
+      <a href="#projects">Projects</a>
+      <a href="#stack">Stack</a>
+      <a href="#about">About</a>
+    </nav>
+    <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle color theme">
+      <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.6M12 18.8v2.6M2.6 12h2.6M18.8 12h2.6M5.4 5.4l1.9 1.9M16.7 16.7l1.9 1.9M18.6 5.4l-1.9 1.9M7.3 16.7l-1.9 1.9"/></svg>
+      <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.2A8.2 8.2 0 0 1 9.8 4a8.4 8.4 0 1 0 10.2 10.2z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ───────────────────────── hero ───────────────────────── -->
+  <section id="top" class="hero">
+    <div class="wrap">
+      <p class="eyebrow reveal">
+        <span class="pulse" aria-hidden="true"></span>
+        AI Research Engineer at Yale University
+      </p>
+
+      <h1 class="reveal">
+        Pranav Raghavendra&nbsp;Rao
+      </h1>
+
+      <p class="lede reveal">
+        I build <strong>LLM systems that survive contact with production</strong> — retrieval agents
+        serving regulated pharma workflows, models pretrained on 600M+ clinical visits, and anomaly
+        detection running across a 3,400-turbine wind fleet.
+      </p>
+
+      <div class="hero-actions reveal">
+        <a class="btn primary" href="mailto:pranav.raghavrao@gmail.com">Get in touch</a>
+        <a class="btn" href="assets/Pranav_Raghavendra_Rao_Resume.pdf" download>
+          <svg class="btn-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4.5-4.5M12 15l-4.5-4.5M4 17.5V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1.5"/></svg>
+          Résumé
+        </a>
+        <a class="btn" href="https://github.com/Pranavvr" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/pranav-raghavendra-rao-b5992618b/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+
+      <dl class="stats reveal">
+        <div class="stat">
+          <dt>Clinical visits pretrained on</dt>
+          <dd>600<span class="unit">M+</span></dd>
+        </div>
+        <div class="stat">
+          <dt>QA resolution time</dt>
+          <dd>3d <span class="unit">&rarr; &lt;1d</span></dd>
+        </div>
+        <div class="stat">
+          <dt>Wind assets monitored</dt>
+          <dd>3,400<span class="unit">+</span></dd>
+        </div>
+        <div class="stat">
+          <dt>M.S. Data Science GPA</dt>
+          <dd>4.0<span class="unit">/4</span></dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── experience ───────────────────────── -->
+  <section id="work" class="section">
+    <div class="wrap">
+      <h2 class="section-title reveal"><span class="num">01</span> Work</h2>
+
+      <ol class="timeline">
+
+        <li class="role reveal">
+          <div class="role-when">Aug 2026 — Present</div>
+          <div class="role-body">
+            <h3>AI Research Engineer, Associate</h3>
+            <p class="org">Yale University <span class="sep">·</span> New Haven, CT</p>
+            <ul>
+              <li>Building an LLM structured-generation pipeline that turns research grant narratives
+                into IRB-compliant protocol documents, emitting <em>Pydantic</em>-validated checklist
+                items across regulatory requirements so PIs skip the manual crosswalk.</li>
+              <li>Engineering a centralized clinical data platform on PostgreSQL that consolidates
+                multimodal research data for cohort-level querying — backing MNE-Python EEG
+                preprocessing and predictive modeling for psychosis risk.</li>
+            </ul>
+            <p class="tags"><span>LLM structured output</span><span>Pydantic</span><span>PostgreSQL</span><span>MNE-Python</span></p>
+          </div>
+        </li>
+
+        <li class="role reveal">
+          <div class="role-when">Aug 2025 — Dec 2025</div>
+          <div class="role-body">
+            <h3>AI Engineer, Co-op</h3>
+            <p class="org">Boehringer Ingelheim <span class="sep">·</span> Ridgefield, CT</p>
+            <ul>
+              <li>Shipped a LangChain RAG agent over Change Requests, CAPA reports and SOP-linked
+                records with Pinecone, behind a containerized FastAPI service on AWS with CI/CD —
+                cutting QA mean-time-to-resolution <strong>from 3 days to under 1</strong>.</li>
+              <li>Pretrained a LLaMA-based model on <strong>600M+ visits across 800K+ patients</strong>,
+                beating traditional ML baselines on Interstitial Lung Disease progression. Distributed
+                over an 8&times;GPU cluster with PyTorch DDP; served with PagedAttention-based vLLM.</li>
+              <li>Ran the training lifecycle across baseline and transformer variants in MLflow, so
+                model selection stayed reproducible.</li>
+            </ul>
+            <p class="tags"><span>LangChain</span><span>Pinecone</span><span>PyTorch DDP</span><span>vLLM</span><span>FastAPI</span><span>MLflow</span></p>
+          </div>
+        </li>
+
+        <li class="role reveal">
+          <div class="role-when">Jun 2025 — Aug 2025</div>
+          <div class="role-body">
+            <h3>ML Engineer Intern</h3>
+            <p class="org">Berkshire Hathaway Energy <span class="muted">(MidAmerican)</span> <span class="sep">·</span> Des Moines, IA</p>
+            <ul>
+              <li>Built and deployed a production LSTM–Transformer autoencoder for wind turbine anomaly
+                detection over <strong>1B+ SCADA time-series records</strong>, contributing to a
+                <strong>12% fleet availability improvement</strong> across 3,400+ assets.</li>
+              <li>Engineered batch inference on Azure Databricks with Azure ML managed endpoints for
+                fleet-wide serving and automated scoring.</li>
+              <li>Designed a turbine health-scoring framework that folds feature-level reconstruction
+                errors into per-asset scores, ranking the fleet by degradation severity for maintenance
+                prioritization.</li>
+            </ul>
+            <p class="tags"><span>LSTM–Transformer</span><span>Azure Databricks</span><span>Azure ML</span><span>Anomaly detection</span></p>
+          </div>
+        </li>
+
+        <li class="role reveal">
+          <div class="role-when">Feb 2022 — Dec 2023</div>
+          <div class="role-body">
+            <h3>Data Scientist <span class="muted">&larr; Analyst Trainee</span></h3>
+            <p class="org">Deloitte <span class="sep">·</span> Bengaluru, India</p>
+            <ul>
+              <li>Optimized a regression-based recommendation model for retail assortment, selecting SKUs
+                across retailer channels and lifting revenue <strong>20%</strong> through better inventory
+                efficiency.</li>
+              <li>Built a K-Means segmentation model clustering retailer channels across
+                <strong>500+ cities</strong> by tier, enabling targeted go-to-market strategies per
+                channel profile.</li>
+              <li>Ran hypothesis testing on ad-hoc growth initiatives, surfacing 3 high-potential market
+                segments that drove expansion decisions.</li>
+              <li>Led the Pandas &rarr; PySpark migration, cutting client compute costs
+                <strong>40%</strong>. Earlier, automated Qlik Sense &rarr; Snowflake SQL migration and
+                built ETL pipelines that reduced processing time 30%.</li>
+            </ul>
+            <p class="tags"><span>PySpark</span><span>Snowflake</span><span>K-Means</span><span>Hypothesis testing</span><span>Power BI</span></p>
+          </div>
+        </li>
+
+        <li class="role reveal">
+          <div class="role-when">Sep 2021 — Jan 2022</div>
+          <div class="role-body">
+            <h3>AI Intern</h3>
+            <p class="org">CellStrat <span class="sep">·</span> Bengaluru, India</p>
+            <ul>
+              <li>AI product development for autonomous driving — lane and object detection models
+                aimed at driving safety.</li>
+            </ul>
+            <p class="tags"><span>Computer vision</span><span>Object detection</span></p>
+          </div>
+        </li>
+
+      </ol>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── projects ───────────────────────── -->
+  <section id="projects" class="section alt">
+    <div class="wrap">
+      <h2 class="section-title reveal"><span class="num">02</span> Projects</h2>
+      <p class="section-note reveal">Things I built end-to-end — infrastructure included, not just notebooks.</p>
+
+      <div class="grid">
+
+        <article class="card reveal">
+          <div class="card-top">
+            <h3>Real-Time Multimodal Voice Agent</h3>
+            <span class="when">Apr 2026</span>
+          </div>
+          <p>A voice agent on ECS Fargate provisioned with Terraform, routing WebSocket audio through a
+             FastAPI backend into the OpenAI Realtime API — Redis holds session state, PostgreSQL
+             persists conversations.</p>
+          <p class="tags"><span>OpenAI Realtime</span><span>WebSockets</span><span>Terraform</span><span>ECS Fargate</span><span>Redis</span></p>
+          <a class="card-link" href="https://github.com/Pranavvr/voice-agent" target="_blank" rel="noopener">
+            View repository <span aria-hidden="true">&rarr;</span>
+          </a>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top">
+            <h3>Calendar.ai — Intent-to-Calendar Agent</h3>
+            <span class="when">Mar 2026</span>
+          </div>
+          <p>A multi-user LangGraph scheduling agent that turns natural language into Google Calendar
+             events. Deployed on AWS ECS Fargate via Terraform with LangSmith tracing, per-user OAuth 2.0,
+             and async PostgreSQL.</p>
+          <p class="tags"><span>LangGraph</span><span>Google Calendar API</span><span>OAuth 2.0</span><span>Docker</span><span>GitHub Actions</span></p>
+          <a class="card-link" href="https://github.com/Pranavvr/Calendar.ai" target="_blank" rel="noopener">
+            View repository <span aria-hidden="true">&rarr;</span>
+          </a>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top">
+            <h3>GitHub Repo Explainer — MCP Server</h3>
+            <span class="when">Feb 2026</span>
+          </div>
+          <p>A Python MCP server <strong>published on PyPI</strong>, giving any MCP-compatible AI coding
+             environment live access to GitHub repos: summarization, file explanation, freeform Q&amp;A,
+             and dependency auditing.</p>
+          <p class="tags"><span>MCP</span><span>Python</span><span>GitHub API</span><span>PyPI</span></p>
+          <a class="card-link" href="https://github.com/Pranavvr/Repo_Explainer_MCP" target="_blank" rel="noopener">
+            View repository <span aria-hidden="true">&rarr;</span>
+          </a>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top">
+            <h3>Smart Investor Agent</h3>
+            <span class="when">Apr 2026</span>
+          </div>
+          <p>An LLM-powered assistant that answers investment questions by grounding responses in live
+             market data and financial datasets.</p>
+          <p class="tags"><span>LLM agents</span><span>Financial data</span><span>Python</span></p>
+          <a class="card-link" href="https://github.com/Pranavvr/Smart_Investor_Agent" target="_blank" rel="noopener">
+            View repository <span aria-hidden="true">&rarr;</span>
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── stack ───────────────────────── -->
+  <section id="stack" class="section">
+    <div class="wrap">
+      <h2 class="section-title reveal"><span class="num">03</span> Stack</h2>
+
+      <div class="stack-grid">
+        <div class="stack-col reveal">
+          <h3>Generative AI &amp; LLMs</h3>
+          <p>Inference optimization <span class="d">·</span> Multimodal AI <span class="d">·</span> RAG
+             <span class="d">·</span> Agentic systems <span class="d">·</span> Prompt engineering
+             <span class="d">·</span> Vector databases</p>
+        </div>
+        <div class="stack-col reveal">
+          <h3>AI / ML tooling</h3>
+          <p>PyTorch <span class="d">·</span> TensorFlow <span class="d">·</span> NumPy
+             <span class="d">·</span> CUDA <span class="d">·</span> LangChain
+             <span class="d">·</span> LangGraph <span class="d">·</span> LangSmith
+             <span class="d">·</span> RAGAS <span class="d">·</span> OpenAI API
+             <span class="d">·</span> WebSockets</p>
+        </div>
+        <div class="stack-col reveal">
+          <h3>Languages &amp; data</h3>
+          <p>Python <span class="d">·</span> TypeScript <span class="d">·</span> R
+             <span class="d">·</span> C / C++ <span class="d">·</span> MATLAB
+             <span class="d">·</span> PostgreSQL <span class="d">·</span> MySQL
+             <span class="d">·</span> SQL Server <span class="d">·</span> MongoDB</p>
+        </div>
+        <div class="stack-col reveal">
+          <h3>Infrastructure &amp; MLOps</h3>
+          <p>AWS <span class="muted">(SageMaker, ECS, Fargate, S3, ElastiCache, RDS)</span>
+             <span class="d">·</span> Azure <span class="muted">(Databricks, ML Studio, ADLS)</span>
+             <span class="d">·</span> Spark <span class="d">·</span> Docker
+             <span class="d">·</span> Terraform <span class="d">·</span> FastAPI
+             <span class="d">·</span> MLflow <span class="d">·</span> GitHub Actions</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── about ───────────────────────── -->
+  <section id="about" class="section alt">
+    <div class="wrap about-wrap">
+      <div class="about-text reveal">
+        <h2 class="section-title"><span class="num">04</span> About</h2>
+        <p>I started in electrical engineering, spent two years at Deloitte turning retail data into
+           decisions, then moved to Boston for a master's in Data Science. Somewhere in there the
+           interesting problem stopped being "can the model predict this" and became "can this thing
+           actually run, for real users, without falling over."</p>
+        <p>That's the work I look for now: LLM systems with the unglamorous parts attached — the
+           evaluation harness, the Terraform, the CI, the reason the latency budget holds.</p>
+        <p>Currently at Yale, building clinical research infrastructure. Open to conversations about
+           AI/ML engineering roles.</p>
+      </div>
+
+      <div class="about-side reveal">
+        <h3>Education</h3>
+        <div class="edu">
+          <p class="deg">M.S. Data Science</p>
+          <p class="school">Northeastern University<br>Khoury College of Computer Sciences</p>
+          <p class="meta">Jan 2024 — Apr 2026 <span class="sep">·</span> 4.0 GPA</p>
+        </div>
+        <div class="edu">
+          <p class="deg">B.E. Electrical &amp; Electronics Engineering</p>
+          <p class="school">B.M.S. College of Engineering</p>
+          <p class="meta">Aug 2018 — Jul 2022 <span class="sep">·</span> 4.0 GPA</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── contact ───────────────────────── -->
+  <section class="section contact">
+    <div class="wrap">
+      <h2 class="reveal">Let's talk.</h2>
+      <p class="reveal">Best reached by email — I read everything.</p>
+      <p class="contact-links reveal">
+        <a href="mailto:pranav.raghavrao@gmail.com">pranav.raghavrao@gmail.com</a>
+        <a href="https://github.com/Pranavvr" target="_blank" rel="noopener">github.com/Pranavvr</a>
+        <a href="https://www.linkedin.com/in/pranav-raghavendra-rao-b5992618b/" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <span>&copy; <span id="year">2026</span> Pranav Raghavendra Rao</span>
+    <span class="muted">Built with plain HTML &amp; CSS. No frameworks harmed.</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
